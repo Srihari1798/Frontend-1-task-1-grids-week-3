@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+main{
+     display: grid;
+     width:90%;
+     grid-template-rows: 1fr auto;
+    grid-template-columns:repeat(4,1fr) ;
+    padding:30px;
+     grid-gap:1rem;
+    
+}
+.grids{
+    padding: 100px;
+   margin:2px;
+}
+#grid{
+    font-weight:900;
+    font-size: 40px;
+    font-family:'inter';
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding:10px;
+    border:none; 
+}
+#img1{
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end:4;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxJaW5t0rtMXEhlEwKYJ55PE5UZsYn3QX9-w&usqp=CAU);
+    background-size: cover;
+    /* object-fit: cover; */
+}
+#img2{
+    
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg8F58ieuBhsoplh6xkmCgxojB8h6pruFfQg&usqp=CAU);
+    /* object-fit: cover; */
+    background-size: cover;
+
+
+}
+#img3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-QGhG27jZ3jni3eH82UxKyHBrm8pza_lQMA&usqp=CAU);
+    /* object-fit: cover; */
+    background-size: cover;
+
+}
+#img4{
+   
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4jFOrsU3jaYIZhG2LVX_Wzl9AJFM2ETGvMQ&usqp=CAU);
+    /* object-fit: cover; */
+    background-size: cover;
+
+
+}
+#img5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm_YWynxt4uIDzsZ9xKk6LMFuLdmMem7mjCg&usqp=CAU);
+   /* object-fit: cover; */
+    background-size: cover;
+
+}
+#img6{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQXVo2lZjp3qkjjq-PcZI3pc7qZJNzzD2Dgg&usqp=CAU);
+    grid-column-start: 1;
+    grid-column-end:3;
+   /* object-fit: cover; */
+    background-size: cover;
+}
+#img7{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp05vtOaeIbmNUnJSr8trbfxupCOO11X0P9A&usqp=CAU);
+    grid-column-start: 3;
+    grid-column-end:-1;
+   /* object-fit: cover; */
+    background-size: cover;
+    position: relative;  
+    z-index: -80;
+
+}
+#index{
+    font-size: 30px;
+    padding:5px;
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    position: relative;
+    top:-150%;
+    z-index:-50;
+}
